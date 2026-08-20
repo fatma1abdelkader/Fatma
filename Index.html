@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>د. فاطمة عبدالقادر - استشارية الصحة النفسية</title>
+    <style>
+        :root {
+            --bg-color: #f7f9f6;
+            --card-bg: #ffffff;
+            --primary-color: #768a75;
+            --accent-color: #a3b19b;
+            --text-color: #333333;
+            --text-light: #666666;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--accent-color);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+            border: 1px solid #e2e8e0;
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .price-box {
+            background-color: #eef2ec;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .payment-section {
+            background-color: var(--card-bg);
+            border: 2px dashed var(--primary-color);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>د. فاطمة عبدالقادر</h1>
+        <p>استشارية الصحة النفسية وتطوير الذات - رحلتك نحو السكينة والتوازن</p>
+    </header>
+
+    <nav>
+        <a href="#about">عن الدكتورة</a>
+        <a href="#development">دورات التنمية</a>
+        <a href="#health">كورسات الصحة النفسية</a>
+        <a href="#tips">نصائح عملية</a>
+        <a href="#pricing">الاشتراك والدفع</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- قسم عن الدكتورة -->
+        <section id="about" style="text-align: center; margin-bottom: 50px;">
+            <h2 class="section-title">عن د. فاطمة عبدالقادر</h2>
+            <p style="max-width: 700px; margin: 0 auto; color: var(--text-light);">
+                أهلاً بك. أساعدك من خلال خطوات علمية ونفسية مدروسة على تجاوز الضغوط، بناء السلام الداخلي، وتطوير مهاراتك الشخصية لتصل إلى النسخة الأفضل من ذاتك.
+            </p>
+        </section>
+
+        <!-- قسم دورات التنمية البشرية -->
+        <section id="development">
+            <h2 class="section-title">دورات التنمية وتطوير الذات</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>دورة إدارة الذات والوقت</h3>
+                    <p>تعلم كيف تنظم أهدافك اليومية وتتخلص من التسويف والضغط النفسي الناتج عن تراكم المهام.</p>
+                </div>
+                <div class="card">
+                    <h3>دورة بناء الثقة بالنفس</h3>
+                    <p>خطوات عملية لتعزيز التقدير الذاتي والتعبير عن النفس بثقة في مختلف جوانب الحياة.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم كورسات الصحة النفسية -->
+        <section id="health">
+            <h2 class="section-title">كورسات الصحة النفسية</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>كورس التغلب على القلق والمشاعـر السلبية</h3>
+                    <p>تقنيات مثبتة للتعامل مع التفكير الزائد (Overthinking) واستعادة الهدوء الداخلي.</p>
+                </div>
+                <div class="card">
+                    <h3>كورس التعافي وبناء السلام الداخلي</h3>
+                    <p>مرشدك للتعامل مع الضغوط النفسية والعلاقات المرهقة لتصل إلى استقرارك النفسي.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم نصائح عملية -->
+        <section id="tips">
+            <h2 class="section-title">نصائح عملية يومية</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>كيف تفرغ شحنات التوتر؟</h3>
+                    <p>مارس تمارين التنفس العميق لمدة ٥ دقائق يومياً عند الشعور بالضغط النفسي.</p>
+                </div>
+                <div class="card">
+                    <h3>حدودك النفسية هي حمايتك</h3>
+                    <p>تعلم قول "لا" للأشياء التي تستنزف طاقتك دون الشعور بالذنب.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم بوابات الاشتراك والدفع -->
+        <section id="pricing">
+            <h2 class="section-title">خطط الاشتراك وطريقة الدفع</h2>
+            
+            <div class="grid">
+                <div class="card" style="text-align: center;">
+                    <h3>الاشتراك الأساسي</h3>
+                    <p>حضور كورس واحد من الاختيار + المادة العلمية</p>
+                    <div class="price-box">300 جنيه مصري</div>
+                </div>
+                <div class="card" style="text-align: center;">
+                    <h3>الاشتراك الشامل</h3>
+                    <p>الوصول لكافة الكورسات + النصائح والمتابعة</p>
+                    <div class="price-box">500 جنيه مصري</div>
+                </div>
+            </div>
+
+            <div class="payment-section">
+                <h3 style="color: var(--primary-color); margin-top: 0;">خطوات التفعيل والاشتراك</h3>
+                <p>1. قم بتحويل مبلغ الاشتراك إلى رقم فودافون كاش التالي:</p>
+                <p style="font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin: 10px 0;">01225743572</p>
+                <p>2. احفظ صورة إيصال التحويل أو لقطة الشاشة.</p>
+                <p>3. اضغط على الزر أدناه لإرسال الإيصال عبر الواتساب لتفعيل الكورس فوراً:</p>
+                
+                <a href="https://wa.me/201225743572?text=مرحباً%20د.%20فاطمة،%20قمت%20بتحويل%20المبلغ%20وأود%20تفعيل%20الكورس" class="btn-whatsapp" target="_blank">
+                    إرسال إيصال التحويل لتفعيل الكورس
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © د. فاطمة عبدالقادر</p>
+    </footer>
+
+</body>
+</html>
